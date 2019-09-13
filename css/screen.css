@@ -669,6 +669,10 @@ ul.socials {
 ul.socials li {
 	display:inline-block;
 }
+ul.socials img {
+	width: 25px;
+	height: 25px;
+}
 /****************************** Breadcrumbs ******************************/
 .breadcrumbs {
 	background:url(../images/bg/lightpaperfibers.png) repeat;
