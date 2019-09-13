@@ -314,6 +314,9 @@ html[xmlns] .slides {
 	margin-bottom: 20px;
 	line-height:50px;
 }
+#about{
+	font-size: 20px;
+}
 .caption p {
 	color:#533c1e;
 	font-size:16px;
