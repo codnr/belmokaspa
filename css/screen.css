@@ -293,16 +293,16 @@ html[xmlns] .slides {
 /* IE rgba() hack */
 .caption {
 	zoom: 1;
-	width: 20%;
-	height: 30%;
+	width: 60%;
+	height: 60%;
 	padding: 2%;
 	margin: 0;
 	position: absolute;
-	left: 40%;
-	bottom: 30%;
+	left: 20%;
+	bottom: 15%;
 	text-align:center;
 	color:#2d2010;
-	background: rgba(234, 214, 189, 0.75);
+	background: rgba(234, 214, 189, 0.60);
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
@@ -338,6 +338,28 @@ html[xmlns] .slides {
 	-o-transition: all 0.5s ease-in-out;
 	-ms-transition: all 0.5s ease-in-out;
 	transition: all 0.5s ease-in-out;
+}
+.pbutton{
+	background:rgba(85, 44, 166, 0.25);
+	border:1px solid #2d2010;
+	padding:10px;
+	color:#2d2010;
+	font-size:14px;
+	line-height:40px;
+	font-weight:bold;
+	text-transform: uppercase;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.pbutton:hover {
+	background:#fff87f;
+	border:1px solid #552ca6;
 }
 .caption a.button:hover {
 	background:#fff87f;
