@@ -609,16 +609,16 @@ p.quote {
 }
 /****************************** Footer ******************************/
 .footer {
-	background:#261b0d url(../images/rausch.png) repeat;
+	background:#261b0d url(../images/bg/lightpaperfibers.png) repeat;
 }
 .footer p {
 	color:#261b0d;
 	text-shadow:none;
-	font-size:12px;
+	font-size:18px;
 }
 .footer h3 {
 	color:#261b0d;
-	font-size:16px;
+	font-size:20px;
 }
 #tweets ul {
 	margin-top:10px;
@@ -1279,7 +1279,8 @@ form#contact_form input[type="submit"] {
 	margin-bottom:40px;
 }
 .contact ul li {
-	font-size:14px;
+	font-size:15px;
+	font-weight: bold;
 }
 /****************************** Shortcodes ******************************/
 /* Content Shortcodes */
