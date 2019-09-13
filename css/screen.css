@@ -83,6 +83,9 @@ div.blankSeparator2 {
 	float: left;
 	/*padding-top:25px;*/
 }
+.nowrap{
+	white-space: nowrap;
+}
 .mainmenu {
 	float:right;
 }
