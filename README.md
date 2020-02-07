@@ -8,4 +8,4 @@ Webpage creation for Mocha
     3. Should we just rewrite this site from scratch?
     4. Site needs to be optimized by removing comments and minifying code.
     5. Site needs more audits.
-    7. Remove the home link because the logo icon is a link to home?
+    6. Remove the home link because the logo icon is a link to home?
