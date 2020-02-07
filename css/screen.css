@@ -1459,3 +1459,7 @@ width: 100%;
 margin-top: 13px;
 }
 }
+
+.normaltext{
+	text-transform: none;
+}
