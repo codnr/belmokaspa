@@ -1463,3 +1463,7 @@ margin-top: 13px;
 .normaltext{
 	text-transform: none;
 }
+
+.invisible{
+	visibility: hidden;
+}
