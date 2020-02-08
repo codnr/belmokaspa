@@ -1465,5 +1465,5 @@ margin-top: 13px;
 }
 
 .invisible{
-	visibility: hidden;
+	display: none !important;
 }
