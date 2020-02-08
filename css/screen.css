@@ -65,7 +65,7 @@ div.blankSeparator2 {
 /****************************** HOME - Content Part - Logo&Menu ******************************/
 /* Header - Logo & Menu */
 #header {
-	background:#261b0d url(../images/bg/lightpaperfibers.webp) repeat;
+	background:#261b0d url(../images/bg/lightpaperfibers.jpg) repeat;
 	margin-top:0px;
 }
 .transparent {
@@ -480,7 +480,7 @@ html[xmlns] .slides {
 }
 /****************************** Infobox & Heading & Socialize Boxes ******************************/
 .infobox {
-	background:url(../images/bg/lightpaperfibers.webp) repeat;
+	background:url(../images/bg/lightpaperfibers.jpg) repeat;
 }
 .info {
 	text-align:center;
@@ -497,14 +497,14 @@ span.pink {
 }
 .headingblock {
 	margin-bottom:40px;
-	background:url(../images/bg/lightpaperfibers.webp) repeat;
+	background:url(../images/bg/lightpaperfibers.jpg) repeat;
 }
 .heading {
 	text-align:center;
 	padding:20px 0 0 0;
 }
 .socialsblock {
-	background:url(../images/bg/lightpaperfibers.webp) repeat;
+	background:url(../images/bg/lightpaperfibers.jpg) repeat;
 }
 .socialize {
 	text-align:center;
@@ -609,7 +609,7 @@ p.quote {
 }
 /****************************** Footer ******************************/
 .footer {
-	background:#261b0d url(../images/bg/lightpaperfibers.webp) repeat;
+	background:#261b0d url(../images/bg/lightpaperfibers.jpg) repeat;
 }
 .footer p {
 	color:#261b0d;
@@ -701,7 +701,7 @@ ul.socials li {
 }
 /****************************** Breadcrumbs ******************************/
 .breadcrumbs {
-	background:url(../images/bg/lightpaperfibers.webp) repeat;
+	background:url(../images/bg/lightpaperfibers.jpg) repeat;
 	padding:20px 0 0 0;
 	margin-bottom:40px;
 }
@@ -728,7 +728,7 @@ ul.socials li {
 	height: 100%;
 }
 .testimonials {
-	background:url(../images/bg/lightpaperfibers.webp) repeat;
+	background:url(../images/bg/lightpaperfibers.jpg) repeat;
 	padding:20px 0 0 0;
 	text-align:center;
 }
@@ -1128,7 +1128,7 @@ ul.tabs li a {
 	padding:5px;
 	margin:0;
 	color: #543d1f;
-	background:url(../images/bg/lightpaperfibers.webp) repeat;
+	background:url(../images/bg/lightpaperfibers.jpg) repeat;
 	-webkit-border-top-left-radius: 5px;
 	-webkit-border-top-right-radius: 5px;
 	-moz-border-radius-topleft: 5px;
