@@ -1,12 +1,9 @@
-<!-- Responsive Menu -->
+// Responsive Menu 
 			$(document).ready(function(){		
 				jQuery("#responsive-menu select").change(function() {
 					window.location = jQuery(this).find("option:selected").val();
 				});
-				});
-			//$(window).load(function() {
-  			//	$('.preloader').fadeOut('slow');
-			//});		
+				});	
 
             $(document).ready(function(){
 			$('.flexslider').flexslider({

@@ -3,7 +3,7 @@
 img, embed, object, video {
 	max-width: 100%
 }
-/* preloader 
+/* preloader */
 .preloader {
 	position: absolute;
 	top: 0;
@@ -15,7 +15,7 @@ img, embed, object, video {
 	background-repeat: no-repeat; 
 	background-color: #FFF;
 	background-position: center;
- }*/
+ }
  /* divider */
 hr.separator {
 	height: 1px;
