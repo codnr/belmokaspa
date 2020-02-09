@@ -1,3 +1,3 @@
 $(window).on('load', function(){
-    $('.preloader').fadeOut('slow');
+    $('.preloader').fadeOut(1500,"swing");
  });
