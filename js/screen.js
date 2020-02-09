@@ -4,7 +4,10 @@
 					window.location = jQuery(this).find("option:selected").val();
 				});
 				});
-<!-- Hook up the FlexSlider -->
+			//$(window).load(function() {
+  			//	$('.preloader').fadeOut('slow');
+			//});		
+
             $(document).ready(function(){
 			$('.flexslider').flexslider({
             animation: "fade",              //String: Select your animation type, "fade" or "slide"
