@@ -1359,6 +1359,22 @@ form#contact_form input[type="submit"] {
 .caption {
 	display:none;
 }
+.logo{
+	float: none;
+	margin: 0% 36% 0% 38%;
+}
+.mainmenu{
+	float: none;
+}
+.sf-menu{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+.sf-menu li a{
+	margin: 20px 20px 20px 20px;
+}
 form#contact_form textarea {
  width: 350px;
 }
