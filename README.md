@@ -1,10 +1,9 @@
-"# belmokaspa" 
-Webpage creation for Mocha
+# Bèl Moka Spa
+
+Webpage created for Mocha
 
 # Issues
 
-    1. Does the contact us email even work?
-    2. Site needs to be optimized by removing comments and minifying code.
+    1. Contact us email page does not work...Fix it somehow.
+    2. Site needs to be optimized by removing comments and minifying code. Probably through the doc folder on github.
     3. Site needs more audits.
-    4. Remove the home link because the logo icon is a link to home?
-    5. Change coupon as it expired
