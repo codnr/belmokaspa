@@ -30,9 +30,3 @@ $(document).on('ready', function(){
 $(window).on('load', function(){
     $('.preloader').fadeOut(1500,"swing");
  });
-
- headers: {
-    'Authorization':'Basic xxxxxxxxxxxxx',
-    'X-CSRF-TOKEN':'xxxxxxxxxxxxxxxxxxxx',
-    'Content-Type':'application/json'
-},
