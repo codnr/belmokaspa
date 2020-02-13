@@ -1,3 +1,4 @@
+/*
 $(document).on('ready', function(){
     $("#contact_form").submit(function(e){
         e.preventDefault();
@@ -24,6 +25,7 @@ $(document).on('ready', function(){
         });
     });
 });
+*/
 
 $(window).on('load', function(){
     $('.preloader').fadeOut(1500,"swing");

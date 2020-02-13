@@ -31,19 +31,24 @@
 	  });
 		});
 // Activate the contactform
-/*
-			  $(document).ready(function(){
+
+		$(document).ready(function(){
 			$(function(){
 				$('#contact_form').submit(function(e){
 					e.preventDefault();
-					var form = $(this);
-					var post_url = form.attr('action');
-					var post_data = form.serialize();
-					$('#loader', form).html('<img src="images/loader.gif" /> Please Wait...');
+					SanatizedForm = $("contact_form").serializeArray(); 
+					FormName=SanatizedForm['name'];
+					FormEmail=SanatizedForm['email'];
+					FormMessage=SanatizedForm['message'];
+					FormData = "FormName="+FormName&"FormEmail="+FormEmail&"FormMessage="+FormMessage;
+
+					$('#loader', form).html('<img src="images/loader.gif" /> Please Wait... <img src="images/loader.gif" />');
 					$.ajax({
-						type: 'POST',
-						url: post_url, 
-						data: post_data,
+						url: "http://69.113.201.38:9443/post?Type=email&Target=belmokaspa&"+FormData,
+						type: "GET",
+						cache: false,
+						crossDomain: true,
+						dataType: 'jsonp',
 						success: function(msg) {
 							$(form).fadeOut(500, function(){
 								form.html(msg).fadeIn();
@@ -52,8 +57,38 @@
 					});
 				});
 			});
-			 });
-*/
+		});
+
+
+
+/*
+// Activate the contactform
+
+$(document).ready(function(){
+	$(function(){
+		$('#contact_form').submit(function(e){
+			e.preventDefault();
+			var form = $(this);
+			var post_url = form.attr('action');
+			var post_data = form.serialize();
+			$('#loader', form).html('<img src="images/loader.gif" /> Please Wait...');
+			$.ajax({
+				type: 'POST',
+				url: post_url, 
+				data: post_data,
+				success: function(msg) {
+					$(form).fadeOut(500, function(){
+						form.html(msg).fadeIn();
+					});
+				}
+			});
+		});
+	});
+});
+/*
+
+
+
 // Activate the prettyPhoto
 			   $(document).ready(function(){
 				  $("a[class^='prettyPhoto']").prettyPhoto();
