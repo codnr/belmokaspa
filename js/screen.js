@@ -36,6 +36,7 @@
 			$(function(){
 				$('#contact_form').submit(function(e){
 					e.preventDefault();
+					var form = $(this);
 					SanatizedForm = $("contact_form").serializeArray(); 
 					FormName=SanatizedForm['name'];
 					FormEmail=SanatizedForm['email'];
