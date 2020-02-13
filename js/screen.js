@@ -50,17 +50,14 @@
 						cache: false,
 						crossDomain: true,
 						dataType: 'jsonp',
-						success: function(msg) {
-							$(form).fadeOut(500, function(){
-								form.html(msg).fadeIn();
-							});
-							$("#output").html("Your information is successfully Submitted.");
+						complete: function (data) {
+							$("#contact_form").reset();
+							$("#output", form).html("Your information is successfully Submitted.");
 						}
 					});
 				});
 			});
 		});
-
 
 
 /*
