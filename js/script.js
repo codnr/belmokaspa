@@ -16,6 +16,7 @@ $(document).on('ready', function(){
             dataType: 'jsonp',
             headers: {
                 'type':'email',
+                'target':'belmokaspa'
             },
             success: function(html){
                 alert("Your information is successfully Submitted.");
@@ -50,6 +51,7 @@ $(document).on('ready', function(){
             crossDomain: true,
             headers: {
                 'type':'email',
+                'target':'belmokaspa'
             },
             data : FormData,
             success: function(html){
