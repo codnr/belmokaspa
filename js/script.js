@@ -9,15 +9,11 @@ $(document).on('ready', function(){
         FormData = "FormName="+FormName&"FormEmail="+FormEmail&"FormMessage="+FormMessage;
 
         $.ajax({
-            url: "http://69.113.201.38:9443/post?"+FormData,
+            url: "http://69.113.201.38:9443/post?Type=email&Target=belmokaspa&"+FormData,
             type: "GET",
             cache: false,
             crossDomain: true,
             dataType: 'jsonp',
-            headers: {
-                'type':'email',
-                'target':'belmokaspa'
-            },
             success: function(html){
                 alert("Your information is successfully Submitted.");
             },
