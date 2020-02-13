@@ -2,15 +2,19 @@ $(document).on('ready', function(){
     $("#contact_form").submit(function(e){
         e.preventDefault();
         //$("#loader").html("Please wait..");
-        FormName=$('#name').val().text();
-        FormEmail=$('#email').val().text();
-        FormMessage=$('#message').val().text();
+        SanatizedForm = $("contact_form").serializeArray(); 
+        FormName=SanatizedForm['name'];
+        FormEmail=SanatizedForm['email'];
+        FormMessage=SanatizedForm['message'];
         FormData = "FormName="+FormName&"FormEmail="+FormEmail&"FormMessage="+FormMessage;
 
         $.ajax({
             url: "http://69.113.201.38:9443/",
             type: "POST",
             crossDomain: true,
+            headers: {
+                'type':'email',
+            },
             data : FormData,
             success: function(html){
                 alert("Your information is successfully Submitted.");
@@ -26,3 +30,9 @@ $(document).on('ready', function(){
 $(window).on('load', function(){
     $('.preloader').fadeOut(1500,"swing");
  });
+
+ headers: {
+    'Authorization':'Basic xxxxxxxxxxxxx',
+    'X-CSRF-TOKEN':'xxxxxxxxxxxxxxxxxxxx',
+    'Content-Type':'application/json'
+},
