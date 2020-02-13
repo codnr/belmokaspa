@@ -36,11 +36,10 @@
 			$(function(){
 				$('#contact_form').submit(function(e){
 					e.preventDefault();
-					var form = $(this);
-					SanatizedForm = $("contact_form").serializeArray(); 
-					FormName=SanatizedForm['name'];
-					FormEmail=SanatizedForm['email'];
-					FormMessage=SanatizedForm['message'];
+					SanatizedForm = $("#contact_form").serializeArray(); 
+					FormName=SanatizedForm[0];
+					FormEmail=SanatizedForm[1];
+					FormMessage=SanatizedForm[2];
 					FormData = "FormName="+FormName&"FormEmail="+FormEmail&"FormMessage="+FormMessage;
 
 					$('#loader', form).html('<img src="images/loader.gif" /> Please Wait... <img src="images/loader.gif" />');
