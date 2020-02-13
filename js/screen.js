@@ -51,7 +51,8 @@
 						crossDomain: true,
 						dataType: 'jsonp',
 						complete: function (data) {
-							$("#contact_form").reset();
+							$('#contact_form')[0].reset();
+							$('#loader', form).html('<input type="submit" value="Submit" />');
 							$("#output", form).html("Your information is successfully Submitted.");
 						}
 					});
