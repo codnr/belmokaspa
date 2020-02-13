@@ -37,11 +37,11 @@
 				$('#contact_form').submit(function(e){
 					e.preventDefault();
 					var form = $(this);
-					SanatizedForm = $("#contact_form").serializeArray(); 
-					FormName=SanatizedForm[0];
-					FormEmail=SanatizedForm[1];
-					FormMessage=SanatizedForm[2];
-					FormData = "FormName="+FormName&"FormEmail="+FormEmail&"FormMessage="+FormMessage;
+					var SanatizedForm = $("#contact_form").serializeArray(); 
+					var FormName=SanatizedForm[0].value;
+					var FormEmail=SanatizedForm[1].value;
+					var FormMessage=SanatizedForm[2].value;
+					var FormData = "FormName="+FormName&"FormEmail="+FormEmail&"FormMessage="+FormMessage;
 
 					$('#loader', form).html('<img src="images/loader.gif" /> Please Wait... <img src="images/loader.gif" />');
 					$.ajax({
