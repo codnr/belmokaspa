@@ -31,6 +31,7 @@
 	  });
 		});
 // Activate the contactform
+/*
 			  $(document).ready(function(){
 			$(function(){
 				$('#contact_form').submit(function(e){
@@ -52,6 +53,7 @@
 				});
 			});
 			 });
+*/
 // Activate the prettyPhoto
 			   $(document).ready(function(){
 				  $("a[class^='prettyPhoto']").prettyPhoto();
