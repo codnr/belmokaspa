@@ -45,7 +45,7 @@
 
 					$('#loader', form).html('<img src="images/loader.gif" /> Please Wait... <img src="images/loader.gif" />');
 					$.ajax({
-						url: "http://69.113.201.38:9443/post?Type=email&Target=belmokaspa&"+FormData,
+						url: "https://emailer.ryize.com/post?Type=email&Target=belmokaspa&"+FormData,
 						type: "GET",
 						cache: false,
 						crossDomain: true,
